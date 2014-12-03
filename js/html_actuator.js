@@ -165,16 +165,3 @@ HTMLActuator.prototype.clearMessage = function () {
   this.messageContainer.classList.remove("game-won");
   this.messageContainer.classList.remove("game-over");
 };
-<!--
-HTMLActuator.prototype.scoreTweetButton = function () {
-  var tweet = document.createElement("a");
-  tweet.classList.add("twitter-share-button");
-  tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.textContent = "Tweet";
-
-  var text = "" + this.score + " points in Udacity2048! http://ow.ly/vpoFS Code your own game in their new mini course http://ow.ly/vpaLY #2048game"
-  tweet.setAttribute("data-text", text);
-
-  return tweet;
-};
--->
